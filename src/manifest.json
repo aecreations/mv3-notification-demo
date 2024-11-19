@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "MV3 Notification Demo",
+  "description": "A demo for a notification bug in an MV3 extension.",
+  "version": "1.0",
+  "author": "AE Creations",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mv3-notification-demo@aecreations.github.io",
+      "strict_min_version": "128.0"
+    }
+  },
+
+  "permissions": [
+    "notifications"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
